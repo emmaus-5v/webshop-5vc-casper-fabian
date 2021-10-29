@@ -10,7 +10,7 @@ of in Gitpod (gitpod is zonder mailen van orders en zonder permanent hosten):
 - *Computer onderdelen*
 ### Deze webshop is gemaakt door: 
 - *Casper* 
--  *Fabian*
+- *Fabian*
 
 # Mijn aanpak
 Werk de planning af van boven naar beneden<br>
