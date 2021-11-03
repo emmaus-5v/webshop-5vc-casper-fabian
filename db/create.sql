@@ -17,7 +17,7 @@ DROP TABLE IF EXISTS type;
 
 CREATE TABLE IF EXISTS type (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR(15),
+  name TEXT,
 );
 
 --
@@ -31,7 +31,7 @@ CREATE TABLE IF EXISTS type (
 
 insert into products (name, description, code, price) values ('Nvidia GeForce RTX 3090', 'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)', '816905633-0', 1549.99);
 
-insert into products (name, description, code, price) values ('GeForce RTX 3090', 'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)', '816905633-0', 1550.0);
+
 insert into products (name, description, code, price) values ('Nvidia GeForce RTX 3090', 'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)', '816905633-0', 1550.0);
 
 insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
@@ -58,3 +58,9 @@ insert into products (name, description, code, price) values ('Velvet Goldmine',
 
 Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '492662523-7', 14);
 
+insert into type (name) values ('GPU');
+insert into type (name) values ('CPU');
+insert into type (name) values ('RAM');
+insert into type (name) values ('Monitor');
+insert into type (name) values ('Keyboard');
+insert into type (name) values ('Storage');
