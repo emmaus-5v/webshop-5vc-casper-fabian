@@ -3,22 +3,27 @@
 --
 
 DROP TABLE IF EXISTS products; 
-
 CREATE TABLE products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   code VARCHAR(15),
-  type-id NUMERIC(2),
+  type-id VARCHAR(15),
   name VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2)
 );
 
 DROP TABLE IF EXISTS type;
-
-CREATE TABLE IF EXISTS type (
+CREATE TABLE type (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
 );
+
+DROP TABLE IF EXISTS producent;
+CREATE TABLE producent (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(15)
+);
+
 
 --
 -- populate with data
@@ -30,9 +35,6 @@ CREATE TABLE IF EXISTS type (
 --
 
 insert into products (name, description, code, price) values ('Nvidia GeForce RTX 3090', 'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)', '816905633-0', 1549.99);
-
-
-insert into products (name, description, code, price) values ('Nvidia GeForce RTX 3090', 'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)', '816905633-0', 1550.0);
 
 insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
 
