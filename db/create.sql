@@ -22,6 +22,7 @@ CREATE TABLE products (
 --
 
 insert into products (name, description, code, price) values ('Nvidia GeForce RTX 3090', 'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)', '816905633-0', 1549.00);
+insert into products (name, description, code, price) values ('GeForce RTX 3090', 'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)', '816905633-0', 1550.0);
 insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
 
 Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
