@@ -1,12 +1,14 @@
 --
--- create tables
+-- Create tables
 --
 
 DROP TABLE IF EXISTS products; 
 CREATE TABLE products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   code VARCHAR(15),
-  type.id VARCHAR(15),
+  type-id VARCHAR(15),
+  producent-id VARCHAR(15),
+  uitgave-id VARCHAR(15),
   name-products VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2)
@@ -16,6 +18,12 @@ DROP TABLE IF EXISTS type;
 CREATE TABLE type (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name-type TEXT
+);
+
+DROP TABLE IF EXISTS gpu-info;
+CREATE TABLE gpu-info (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  megahertz NUMERIC(15)
 );
 
 DROP TABLE IF EXISTS producent;
@@ -38,6 +46,10 @@ CREATE TABLE uitgave.jaar (
 -- curl "https://api.mockaroo.com/api/910b6c20?count=100&key=90eac760" > seed.sql
 --
 -- want different data? check: https://www.mockaroo.com/910b6c20
+--
+
+--
+-- Products
 --
 
 insert into products (name, description, code, price) values (
@@ -82,9 +94,30 @@ insert into products (name, description, code, price) values (
   14
 );
 
-insert into type (name) values ('GPU');
-insert into type (name) values ('CPU');
-insert into type (name) values ('RAM');
-insert into type (name) values ('Monitor');
-insert into type (name) values ('Keyboard');
-insert into type (name) values ('Storage');
+--
+-- Type
+--
+
+insert into type (name-type) values (
+  'GPU'
+);
+
+insert into type (name-type) values (
+  'CPU'
+);
+
+insert into type (name-type) values (
+  'RAM'
+);
+
+insert into type (name-type) values (
+  'Monitor'
+);
+
+insert into type (name-type) values (
+  'Keyboard'
+);
+
+insert into type (name-type) values (
+  'Storage'
+);
