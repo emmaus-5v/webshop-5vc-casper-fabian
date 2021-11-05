@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS products;
 CREATE TABLE products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   code VARCHAR(15),
-  type-id VARCHAR(15),
+  type.id VARCHAR(15),
   name VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2)
@@ -24,8 +24,8 @@ CREATE TABLE producent (
   name VARCHAR(15)
 );
 
-DROP TABLE IF EXISTS uitgave-jaar;
-CREATE TABLE uitgave-jaar (
+DROP TABLE IF EXISTS uitgave.jaar;
+CREATE TABLE uitgave.jaar (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   jaar NUMERIC(4)
 );
