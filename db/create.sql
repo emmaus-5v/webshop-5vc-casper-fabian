@@ -7,7 +7,7 @@ CREATE TABLE products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   code VARCHAR(15),
   type-id VARCHAR(15),
-  name VARCHAR(255),
+  name-products VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2)
 );
@@ -15,13 +15,13 @@ CREATE TABLE products (
 DROP TABLE IF EXISTS type;
 CREATE TABLE type (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT,
+  name-type TEXT
 );
 
 DROP TABLE IF EXISTS producent;
 CREATE TABLE producent (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR(15)
+  name-producent TEXT
 );
 
 
