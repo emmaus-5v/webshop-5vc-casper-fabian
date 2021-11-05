@@ -15,7 +15,7 @@ CREATE TABLE products (
 DROP TABLE IF EXISTS type;
 CREATE TABLE type (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR(15),
+  name TEXT,
 );
 
 DROP TABLE IF EXISTS producent;
@@ -82,3 +82,9 @@ insert into products (name, description, code, price) values (
   14
 );
 
+insert into type (name) values ('GPU');
+insert into type (name) values ('CPU');
+insert into type (name) values ('RAM');
+insert into type (name) values ('Monitor');
+insert into type (name) values ('Keyboard');
+insert into type (name) values ('Storage');
