@@ -5,13 +5,13 @@
 DROP TABLE IF EXISTS products; 
 CREATE TABLE products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  code VARCHAR(15),
-  type-id VARCHAR(15),
-  producent-id VARCHAR(15),
-  uitgave-id VARCHAR(15),
-  name-products VARCHAR(255),
+  name-products TEXT,
   description TEXT,
+  code VARCHAR(15),
   price NUMERIC(10, 2)
+  type-id NUMERIC,
+  producent-id NUMERIC,
+  uitgave-id NUMERIC,
 );
 
 DROP TABLE IF EXISTS type;
