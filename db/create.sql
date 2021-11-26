@@ -8,10 +8,10 @@ CREATE TABLE products (
   name TEXT,
   description TEXT,
   code VARCHAR(15),
-  price NUMERIC(10, 2)
+  price NUMERIC(10, 2),
   type_id INTEGER,
   producent_id INTEGER,
-  uitgave_id INTEGER,
+  uitgave_id INTEGER
 );
 
 DROP TABLE IF EXISTS type;
@@ -23,12 +23,14 @@ CREATE TABLE type (
 DROP TABLE IF EXISTS producent;
 CREATE TABLE producent (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT
+  name TEXT,
+  headquarters TEXT
 );
 
-DROP TABLE IF EXISTS uitgave_jaar;
-CREATE TABLE uitgave_jaar (
+DROP TABLE IF EXISTS uitgave_datum;
+CREATE TABLE uitgave_datum (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
+  maand NUMERIC(2),
   jaar NUMERIC(4)
 );
 
@@ -52,17 +54,17 @@ insert into products (name, description, code, price, type_id, producent_id, uit
   'Nvidia GeForce RTX 3090',
   'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)',
   '816905633-0',
-  1549.99,
+  1549.00,
   1,
   1,
   1
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Post Mortem',
-  'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+  'Nvidia GeForce RTX 3080',
+  'GPU info...',
   '0770301223',
-  11,
+  719.00,
   1,
   1,
   1
@@ -142,8 +144,9 @@ insert into type (name) values (
 -- producent
 --
 
-insert into producent (name) values (
-  'Nvidia'
+insert into producent (name, headquarters) values (
+  'Nvidia',
+  'California'
 );
 
 
@@ -151,6 +154,7 @@ insert into producent (name) values (
 -- uitgave_jaar
 --
 
-insert into uitgave_jaar (jaar) values (
+insert into uitgave_datum (maand, jaar) values (
+  9,
   2020
 );
