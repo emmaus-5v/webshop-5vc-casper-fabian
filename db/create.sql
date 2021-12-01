@@ -162,6 +162,16 @@ insert into producent (name, headquarters) values (
   'California'
 );
 
+insert into producent (name, headquarters) values (
+  'AMD',
+  'California'
+);
+
+insert into producent (name, headquarters) values (
+  'Intel',
+  'California'
+);
+
 
 --
 -- uitgave_datum
