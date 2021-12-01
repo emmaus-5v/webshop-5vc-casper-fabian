@@ -35,7 +35,7 @@ CREATE TABLE uitgave_datum (
 );
 
 DROP TABLE IF EXISTS distributeur;
-CREATE TABLE type (
+CREATE TABLE distributeur (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT
 );
