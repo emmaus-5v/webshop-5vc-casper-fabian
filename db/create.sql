@@ -34,6 +34,12 @@ CREATE TABLE uitgave_datum (
   jaar NUMERIC(4)
 );
 
+DROP TABLE IF EXISTS distributeur;
+CREATE TABLE type (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT
+);
+
 
 
 --
