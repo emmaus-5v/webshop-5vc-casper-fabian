@@ -65,7 +65,7 @@ CREATE TABLE distributeur (
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Nvidia GeForce RTX 3090',
-  'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)',
+  'Vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product). Maakt gebruik van Raytracing',
   '816905633-0',
   1549.00,
   1, -- GPU
@@ -75,7 +75,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Nvidia GeForce RTX 3080',
-  'De een na beste GPU die er bestaat. Gemaakt door Nvidia en maakt gebruik van Raytracing.',
+  'Deze GPU maakt gebruik van Raytracing.',
   '0770301223',
   719.00,
   1,
@@ -84,13 +84,13 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Scarlet and the Black, The',
-  'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+  'Nvidia GeForce RTX 3060',
+  'Deze GPU heeft 12GB RAM, wat abnormaal veel is.',
   '445924201-X',
-  13.5,
+  960.00,
   1,
   1,
-  1
+  2
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
