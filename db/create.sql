@@ -78,9 +78,9 @@ insert into products (name, description, code, price, type_id, producent_id, uit
   'Deze GPU maakt gebruik van Raytracing.',
   '0770301223',
   719.00,
-  1,
-  1,
-  1
+  1, -- GPU
+  1, -- Nvidia
+  1 -- September 2020
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
@@ -88,38 +88,37 @@ insert into products (name, description, code, price, type_id, producent_id, uit
   'Deze GPU heeft 12GB RAM, wat abnormaal veel is.',
   '445924201-X',
   960.00,
-  1,
-  1,
-  2
+  1, -- GPU
+  1, -- Nvidia
+  2 -- Februari 2021
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Aquí llega Condemor, el pecador de la pradera',
-  'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. c Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.',
-  '693155505-7',
-  13.5,
-  1,
-  1,
+  'Ryzen 9 5950X',
+  'CPU info...',
+  740.0,
+  2, -- CPU
+  2, -- AMD
   1
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Kiss for Corliss, A (Almost a Bride)',
-  'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.',
+  'Ryzen 7 5700G',
+  'CPU info...',
   '686928463-6',
-  14,
-  1,
-  1,
+  300.0,
+  2, -- CPU
+  2, -- AMD
   1
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Velvet Goldmine',
-  'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+  'Xeon Platinum 8280',
+  'CPU info...',
   '492662523-7',
-  14,
-  1,
-  1,
+  13260.0,
+  2, -- CPU
+  3, -- Intel
   1
 );
 
