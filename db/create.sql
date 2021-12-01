@@ -58,7 +58,7 @@ CREATE TABLE type (
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Nvidia GeForce RTX 3090',
-  'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)',
+  'Vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product). Maakt gebruik van Raytracing',
   '816905633-0',
   1549.00,
   1,
@@ -68,7 +68,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Nvidia GeForce RTX 3080',
-  'De een na beste GPU die er bestaat. Gemaakt door Nvidia en maakt gebruik van Raytracing.',
+  'Deze GPU maakt gebruik van Raytracing.',
   '0770301223',
   719.00,
   1,
@@ -77,13 +77,13 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Nvidia GeForce RTX 3090',
-  'GPU info...',
+  'Nvidia GeForce RTX 3060',
+  'Deze GPU heeft 12GB RAM, wat abnormaal veel is.',
   '445924201-X',
-  13.5,
+  960.00,
   1,
   1,
-  1
+  2
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
@@ -164,3 +164,9 @@ insert into uitgave_datum (maand, jaar) values (
   9,
   2020
 );
+
+insert into uitgave_datum (maand, jaar) values (
+  2,
+  2021
+);
+
