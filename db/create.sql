@@ -34,8 +34,15 @@ CREATE TABLE uitgave_datum (
   jaar NUMERIC(4)
 );
 
+DROP TABLE IF EXISTS products_distributeur;
+CREATE TABLE products_distributeur (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  products_id INTEGER,
+  distributeur_id INTEGER
+);
+
 DROP TABLE IF EXISTS distributeur;
-CREATE TABLE type (
+CREATE TABLE distributeur (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT
 );
@@ -61,9 +68,9 @@ insert into products (name, description, code, price, type_id, producent_id, uit
   'De nieuwste GPU op de markt, vrij bekend na de laatste versie, de GeForce RTX 3080 (zie ander product)',
   '816905633-0',
   1549.00,
-  1,
-  1,
-  1
+  1, -- GPU
+  1, -- Nvidia
+  1 -- September 2020
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
@@ -157,10 +164,51 @@ insert into producent (name, headquarters) values (
 
 
 --
--- uitgave_jaar
+-- uitgave_datum
 --
 
 insert into uitgave_datum (maand, jaar) values (
   9,
   2020
+);
+
+
+--
+-- products-distributeur
+--
+
+insert into products_distributeur (products_id, distributeur_id) values (
+  1, -- 3090
+  2 -- MSI
+);
+
+insert into products_distributeur (products_id, distributeur_id) values (
+  1, -- 3090
+  3 -- Gigabyte
+);
+
+insert into products_distributeur (products_id, distributeur_id) values (
+  1, -- 3090
+  4 -- Asus
+);
+
+
+--
+-- distributeur
+--
+
+insert into distributeur (name) values (
+  'Zotac'
+);
+
+insert into distributeur (name) values (
+  'MSI'
+);
+
+insert into distributeur (name) values (
+  'Gigabyte'
+);
+
+insert into distributeur (name) values (
+  'Asus'
 );
