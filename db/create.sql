@@ -68,7 +68,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Nvidia GeForce RTX 3080',
-  'GPU info...',
+  'De een na beste GPU die er bestaat. Gemaakt door Nvidia en maakt gebruik van Raytracing.',
   '0770301223',
   719.00,
   1,
