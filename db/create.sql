@@ -158,3 +158,16 @@ insert into uitgave_datum (maand, jaar) values (
   9,
   2020
 );
+insert into uitgave_datum (maand, jaar) values (
+  9,
+  2020
+);insert into uitgave_datum (maand, jaar) values (
+  9,
+  2020
+);insert into uitgave_datum (maand, jaar) values (
+  9,
+  2020
+);insert into uitgave_datum (maand, jaar) values (
+  9,
+  2020
+);
