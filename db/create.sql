@@ -77,8 +77,8 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Scarlet and the Black, The',
-  'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+  'Nvidia GeForce RTX 3090',
+  'GPU info...',
   '445924201-X',
   13.5,
   1,
