@@ -96,6 +96,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Ryzen 9 5950X',
   'CPU info...',
+  '666942069-B'
   740.0,
   2, -- CPU
   2, -- AMD
