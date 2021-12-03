@@ -85,7 +85,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Nvidia GeForce RTX 3060',
-  'Deze GPU heeft 12GB RAM, wat abnormaal veel is.',
+  'Deze GPU heeft 12GB VRAM, wat abnormaal veel is.',
   '445924201-X',
   960.00,
   1, -- GPU
@@ -96,7 +96,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Ryzen 9 5950X',
   'CPU info...',
-  '666942069-B'
+  '666942069-B',
   740.0,
   2, -- CPU
   2, -- AMD
@@ -188,18 +188,33 @@ insert into uitgave_datum (maand, jaar) values (
 --
 
 insert into products_distributeur (products_id, distributeur_id) values (
-  1, -- 3090
+  1, -- RTX 3090
   2 -- MSI
 );
 
 insert into products_distributeur (products_id, distributeur_id) values (
-  1, -- 3090
+  1, -- RTX 3090
   3 -- Gigabyte
 );
 
 insert into products_distributeur (products_id, distributeur_id) values (
-  1, -- 3090
+  1, -- RTX 3090
   4 -- Asus
+);
+
+insert into products_distributeur (products_id, distributeur_id) values (
+  2, -- RTX 3080
+  1 -- Zotac
+);
+
+insert into products_distributeur (products_id, distributeur_id) values (
+  2, -- RTX 3080
+  2 -- MSI
+);
+
+insert into products_distributeur (products_id, distributeur_id) values (
+  2, -- RTX 3080
+  3 -- Gigabyte
 );
 
 
