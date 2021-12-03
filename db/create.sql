@@ -96,7 +96,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
   'Ryzen 9 5950X',
   'CPU info...',
-  '666942069-B'
+  '666942069-B',
   740.0,
   2, -- CPU
   2, -- AMD
@@ -122,6 +122,127 @@ insert into products (name, description, code, price, type_id, producent_id, uit
   3, -- Intel
   1
 );
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Balistix 16GB 3200MHz',
+  'RAM info...',
+  '492662523-7',
+  65.0,
+  3, -- RAM
+  4, -- Balistix
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Corsair Vengeance 64GB 3200MHz',
+  'RAM info...',
+  '492662523-7',
+  300.0,
+  3, -- RAM
+  5, -- Corsair
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Xeon Platinum 8280',
+  'CPU info...',
+  '492662523-7',
+  13260.0,
+  2, -- CPU
+  3, -- Intel
+  1
+);
+
 
 
 --
