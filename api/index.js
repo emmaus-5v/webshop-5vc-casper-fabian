@@ -73,7 +73,7 @@ function getProducts(request, response) {
     const sqlOpdracht = db.prepare('SELECT * FROM products WHERE category_id = ? ORDER BY id ASC')
     data = sqlOpdracht.all(category_id)
   } else {
-    const sqlOpdracht = db.prepare('SELECT * FROM products ORDER BY name ASC')
+    const sqlOpdracht = db.prepare('SELECT * FROM products ORDER BY type_id ASC')
     data = sqlOpdracht.all()
   }
   // console.log(JSON.stringify(data, null, 2))
