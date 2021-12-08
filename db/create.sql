@@ -293,6 +293,16 @@ insert into producent (name, headquarters) values (
   'California'
 );
 
+insert into producent (name, headquarters) values (
+  'Balistix',
+  'Idaho'
+);
+
+insert into producent (name, headquarters) values (
+  'Corsair',
+  'California'
+);
+
 
 --
 -- uitgave_datum
