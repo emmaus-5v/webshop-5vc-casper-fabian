@@ -134,7 +134,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Corsair Vengeance',
+  'Corsair Vengeance 64GB',
   '64GB 3200MHz',
   '492662523-7',
   300.0,
@@ -144,7 +144,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Corsair Vengeance',
+  'Corsair Vengeance 32GB (2x16)',
   '32GB (2x16) 3200MHz RGB PRO',
   '492662523-7',
   140.0,
