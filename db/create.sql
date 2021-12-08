@@ -294,7 +294,7 @@ insert into producent (name, headquarters) values (
 );
 
 insert into producent (name, headquarters) values (
-  'Ballistix',
+  'Balistix',
   'Idaho'
 );
 
