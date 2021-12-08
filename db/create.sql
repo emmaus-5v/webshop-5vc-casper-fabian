@@ -124,8 +124,8 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Balistix 16GB 3200MHz',
-  'RAM info...',
+  'Balistix',
+  '16GB 3200MHz',
   '492662523-7',
   65.0,
   3, -- RAM
@@ -134,8 +134,8 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Corsair Vengeance 64GB 3200MHz',
-  'RAM info...',
+  'Corsair Vengeance',
+  '64GB 3200MHz',
   '492662523-7',
   300.0,
   3, -- RAM
@@ -144,12 +144,72 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
+  'Corsair Vengeance',
+  '32GB (2x16) 3200MHz RGB PRO',
   '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
+  140.0,
+  3, -- RAM
+  5, -- Corsair
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Lenovo Gaming Monitor',
+  '27-inch screen, 165Hz 1ms',
+  '492662523-7',
+  250.0,
+  4, -- Monitor
+  6, -- Lenovo
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Samsung Odyssee G9 Gaming Monitor',
+  '49-inch, 240Hz',
+  '492662523-7',
+  1399.0,
+  4, -- Monitor
+  7, -- Samsung
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Samsung Full HD IPS Monitor',
+  '27-inch, 75Hz, FreeSync',
+  'LS27R350',
+  180.0,
+  4, -- Monitor
+  7, -- Samsung
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Razer BlackWidow V3 Pro (Green Switch)',
+  'Draadloos mechanisch gamingtoetsenbord met hoge toetsen en Chroma RGB (Wireless 2.4 GHz, Bluetooth, USB-C) US-Layout',
+  '492662523-7',
+  215.0,
+  5, -- Keyboard
+  8, -- Razer
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Logitech K280e Pro Zakelijk Toetsenbord',
+  'Windows/Linux/Chrome, USB Plug & Play, Morsbestendig, PC/Laptop, QWERTY US International layout',
+  '492662523-7',
+  29.0,
+  5, -- Keyboard
+  9, -- Logitech
+  1
+);
+
+insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
+  'Logitech MK270 Draadloze Toetsenbord',
+  'Windows, Compacte draadloze muis, 8 multimedia- en sneltoetsen, batterijduur 2 jaar, PC/Laptop, QWERTY US International layout',
+  '492662523-7',
+  27.0,
+  5, -- Keyboard
+  9, -- Logitech
   1
 );
 
@@ -158,67 +218,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
   'CPU info...',
   '492662523-7',
   13260.0,
-  2, -- CPU
-  3, -- Intel
-  1
-);
-
-insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
-  '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
-  1
-);
-
-insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
-  '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
-  1
-);
-
-insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
-  '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
-  1
-);
-
-insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
-  '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
-  1
-);
-
-insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
-  '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
-  1
-);
-
-insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
-  '492662523-7',
-  13260.0,
-  2, -- CPU
+  6, -- Storage
   3, -- Intel
   1
 );
