@@ -27,7 +27,7 @@ app.use(express.static('../web'))
 // definieer startpunten voor de API-server
 app.get('/api/echo', echoRequest)
 app.get('/api/categories', getCategories)
-app.get('/api/products', getProducts)
+app.get('/api/products', getProductsByType)
 app.get('/api/products/:id', getProductById)
 //app.get('/api/products/:id/related', db.getRelatedProductsById)
 // our API is not protected...so let's not expose these
@@ -64,7 +64,7 @@ function getCategories(request, response) {
   console.log('API verstuurt /api/categories/')
 }
 
-function getProducts(request, response) {
+function getProductsByType(request, response) {
   console.log('API ontvangt /api/products/?', request.query)
 
   const category_id = parseInt(request.query.category)
@@ -73,7 +73,7 @@ function getProducts(request, response) {
     const sqlOpdracht = db.prepare('SELECT * FROM products WHERE category_id = ? ORDER BY id ASC')
     data = sqlOpdracht.all(category_id)
   } else {
-    const sqlOpdracht = db.prepare('SELECT * FROM products ORDER BY type_id ASC')
+    const sqlOpdracht = db.prepare('SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price, type.name AS type_name FROM products JOIN type ON products.type_id = type.id ORDER BY type_id ASC')
     data = sqlOpdracht.all()
   }
   // console.log(JSON.stringify(data, null, 2))
