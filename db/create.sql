@@ -214,32 +214,32 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
+  'Samsung 980 PRO 2',
+  '7.000 MB/s, Interne Solid State Drive',
   '492662523-7',
-  13260.0,
+  340.0,
   6, -- Storage
-  3, -- Intel
+  7, -- Intel
   1
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
+  'WD My Book Duo Desktop RAID',
+  'USB 3.1 externe harde schijf en automatische back-upsoftware, 24 TB',
   '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
+  770.0,
+  6, -- Storage
+  8, -- WD
   1
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Xeon Platinum 8280',
-  'CPU info...',
+  'WD My Cloud EX2 Ultra',
+  '16 TB',
   '492662523-7',
-  13260.0,
-  2, -- CPU
-  3, -- Intel
+  540.0,
+  6, -- Storage
+  8, -- WD
   1
 );
 
