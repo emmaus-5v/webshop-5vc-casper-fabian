@@ -124,7 +124,7 @@ insert into products (name, description, code, price, type_id, producent_id, uit
 );
 
 insert into products (name, description, code, price, type_id, producent_id, uitgave_id) values (
-  'Balistix',
+  'Balistix 16GB',
   '16GB 3200MHz',
   '492662523-7',
   65.0,
