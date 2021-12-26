@@ -37,7 +37,7 @@ footer {
 }
 
 .card-text {
-  min-height:10em
+  min-height:10em;
 }
 
 /* index page */
@@ -54,7 +54,7 @@ footer {
 }
 
 .product > .card-header {
-  height:3em
+  height:3em;
 }
 
 .product-properties > li > .property-name {
@@ -62,7 +62,29 @@ footer {
   width: 50px;
 }
 .product_amount {
-  width: 80px
+  width: 80px;
+}
+
+.product_dropdown {
+  background-color: white;
+  width: 15%;
+  float: left;
+  padding: 4px;
+  margin: 8px;
+}
+
+.product_dropdown-content {
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
+}
+
+.product_dropdown-content a:hover {
+  background-color: RGB(160, 160, 160);
+}
+
+.product_dropdown-content a:active {
+  background-color: RGB(160, 160, 160);
 }
 
 /* basket page */
